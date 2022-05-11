@@ -14,6 +14,7 @@ namespace LogicalProblemAssignment
         public static void Main(string[] args)
         {
             Console.WriteLine("0.Calculate Fibonacci series");
+            Console.WriteLine("1.Calulate Perfect Number");
             Console.Write("Enter A Choice :");
             int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -22,6 +23,9 @@ namespace LogicalProblemAssignment
                 case 0:
                     Fibonacciseries.AFibonacciseries();
 
+                    break;
+                case 1:
+                    PerfectNumber.AperfectNumber();
                     break;
             }
         }

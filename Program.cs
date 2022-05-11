@@ -15,6 +15,7 @@ namespace LogicalProblemAssignment
         {
             Console.WriteLine("0.Calculate Fibonacci series");
             Console.WriteLine("1.Calulate Perfect Number");
+            Console.WriteLine("2.Calculate Prime Number");    
             Console.Write("Enter A Choice :");
             int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -26,6 +27,9 @@ namespace LogicalProblemAssignment
                     break;
                 case 1:
                     PerfectNumber.AperfectNumber();
+                    break;
+                case 2:
+                    PrimeNumber.APrimeNumber();
                     break;
             }
         }

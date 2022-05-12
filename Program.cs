@@ -18,6 +18,7 @@ namespace LogicalProblemAssignment
             Console.WriteLine("2.Calculate Prime Number"); 
             Console.WriteLine("3.Calculate Reverse Number");
             Console.WriteLine("4.Clculate StopWatch");
+            Console.WriteLine("5.Coupon Code");
             Console.Write("Enter A Choice :");
             int choice = Convert.ToInt32(Console.ReadLine());
 
@@ -39,6 +40,10 @@ namespace LogicalProblemAssignment
                 case 4:
                     StopWatch.AStopWatch();
                     break;
+                default:
+                    CouponNumber.ACouponCode();
+                    break;
+
             }
         }
     }
